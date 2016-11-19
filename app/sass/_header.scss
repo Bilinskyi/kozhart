@@ -1,0 +1,115 @@
+header {
+  position: relative;
+  z-index: 1;
+  .top-line {
+    background: url(../img/top-header.jpg) center top repeat-x;
+    height: 115px; 
+    .wrapper {
+    }
+    .logo {
+      margin-left: 18px;
+      display: block;
+      float: left;
+      position: relative;
+      z-index: 2;
+    }
+    .logo-text {
+      display: block;
+      float: left;
+      margin-top: 19px;
+      margin-left: 19px;
+    }
+    .social {
+      float: left;
+      padding-top: 15px;
+      padding-left: 70px;
+      li {
+        display: inline-block;
+        margin-right: 8px;
+        &:last-child {
+          margin-right: 0;
+        }
+        a {
+          display: inline-block;
+        }
+      }
+    }
+    .cart-box {
+      margin-top: 13px;
+      position: relative;
+      padding-left: 69px;
+      text-align: center;
+      float: right;
+      margin-right: 11px;
+      max-width: 270px; 
+      .ico-cart {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      } 
+      .cart-title {
+        font-family: $ed;
+        color: #3a230f;
+        text-shadow: 1px 1px 0px rgba(232, 232, 232, 0.34);
+        font-size: 39px;
+        line-height: 31px;
+      }
+      .count-price {
+        color: white;
+        font-size: 15px;
+        line-height: 27px;
+        font-family: $arial;
+      }
+      .button-cart {
+        display: inline-block;
+        text-align: center;
+        line-height: 28px;
+        color: #eadccf;
+        font-size: 16px;
+        text-decoration: none;
+      }
+    }
+  }
+  .bottom-line {
+    background: url(../img/bottom-header.jpg) center top repeat-x;
+    height: 71px; 
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.55);
+    .navigation {
+      text-align: right;
+      padding-top: 25px;
+      li {
+        display: inline-block;
+        margin-right: 57px;
+        position: relative;
+        &:last-child {
+          margin-right: 45px;
+        }
+        &:not(:last-child):after {
+          content: '';
+          display: block;
+          position: absolute;
+          right: -28px;
+          top: 50%;
+          width: 5px;
+          height: 6px;
+          background: url(../img/point.png) center top no-repeat;
+          transform: translateY(-50%);
+        }
+        a {
+          font-size: 14px;
+          display: inline-block;
+          text-transform: uppercase;
+          color: white;
+          letter-spacing: 1px;
+          text-decoration: none;
+          &:hover,
+          &.current {
+            color: #ae8868;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,11 @@
 $normal: 14px;
 
+$arial: 'Conv_arial400';
+$reg: 'Conv_MyriadPro-Regular';
+$sem: 'Conv_MyriadPro-Semibold';
+$bold: 'Conv_MyriadPro-Bold';
+$ed: 'Conv_edisson';
+
 @mixin respond-to($media) {
 	@if $media == mobile {
 		@media only screen and (max-width: $break-small) { @content; }

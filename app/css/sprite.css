@@ -1,0 +1,376 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+
+.btn-1 {
+  background-image: url(../img/sprite.png);
+  background-position: -112px -288px;
+  width: 158px;
+  height: 43px;
+}
+
+.btn-1:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -275px -288px;
+  width: 158px;
+  height: 43px;
+}
+.btn-1:active {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -366px;
+  width: 158px;
+  height: 43px;
+}
+
+
+
+.btn-2 {
+  background-image: url(../img/sprite.png);
+  background-position: -253px -96px;
+  width: 208px;
+  height: 43px;
+}
+
+.btn-2:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -253px -144px;
+  width: 208px;
+  height: 43px;
+}
+.btn-2:active {
+  background-image: url(../img/sprite.png);
+  background-position: -253px -48px;
+  width: 208px;
+  height: 43px;
+}
+
+
+.btn-3 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -144px;
+  width: 228px;
+  height: 43px;
+}
+
+.btn-3:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -253px 0px;
+  width: 228px;
+  height: 43px;
+}
+.btn-3:active {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -192px;
+  width: 228px;
+  height: 43px;
+}
+
+
+
+.btn-4 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -240px;
+  width: 178px;
+  height: 43px;
+}
+
+.btn-4:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -183px -240px;
+  width: 178px;
+  height: 43px;
+}
+.btn-4:active {
+  background-image: url(../img/sprite.png);
+  background-position: -253px -192px;
+  width: 178px;
+  height: 43px;
+}
+
+
+
+.btn-5 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -96px;
+  width: 248px;
+  height: 43px;
+}
+
+.btn-5:hover {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 248px;
+  height: 43px;
+}
+.btn-5:active {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -48px;
+  width: 248px;
+  height: 43px;
+}
+
+
+
+.button-cart {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -414px;
+  width: 156px;
+  height: 28px;
+}
+
+.button-cart:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -324px -366px;
+  width: 156px;
+  height: 28px;
+}
+.button-cart:active {
+  background-image: url(../img/sprite.png);
+  background-position: -163px -366px;
+  width: 156px;
+  height: 28px;
+}
+
+
+
+.fancybox-close {
+  background-image: url(../img/sprite.png);
+  background-position: -486px -60px;
+  width: 50px;
+  height: 51px;
+}
+
+.fancybox-close:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -486px -116px;
+  width: 50px;
+  height: 51px;
+}
+.fancybox-close:active {
+  background-image: url(../img/sprite.png);
+  background-position: -486px -172px;
+  width: 50px;
+  height: 50px;
+}
+
+.hw {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -288px;
+  width: 107px;
+  height: 73px;
+}
+
+.ico-cart-sm {
+  background-image: url(../img/sprite.png);
+  background-position: -525px -227px;
+  width: 18px;
+  height: 22px;
+}
+
+.ico-cart-sm:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -525px -266px;
+  width: 18px;
+  height: 22px;
+}
+.ico-cart-sm:active {
+  background-image: url(../img/sprite.png);
+  background-position: -525px -305px;
+  width: 18px;
+  height: 22px;
+}
+
+
+
+.ico-cart {
+  background-image: url(../img/sprite.png);
+  background-position: -486px 0px;
+  width: 59px;
+  height: 55px;
+}
+
+.ico-fb {
+  background-image: url(../img/sprite.png);
+  background-position: -436px -192px;
+  width: 34px;
+  height: 34px;
+}
+
+.ico-fb:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -486px -383px;
+  width: 34px;
+  height: 34px;
+}
+.ico-fb:active {
+  background-image: url(../img/sprite.png);
+  background-position: -486px -344px;
+  width: 34px;
+  height: 34px;
+}
+
+
+
+
+.ico-inst {
+  background-image: url(../img/sprite.png);
+  background-position: -444px -240px;
+  width: 34px;
+  height: 34px;
+}
+
+.ico-inst:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -405px -240px;
+  width: 34px;
+  height: 34px;
+}
+.ico-inst:active {
+  background-image: url(../img/sprite.png);
+  background-position: -366px -240px;
+  width: 34px;
+  height: 34px;
+}
+
+
+
+.ico-left {
+  background-image: url(../img/sprite.png);
+  background-position: -161px -414px;
+  width: 26px;
+  height: 26px;
+}
+
+.ico-left:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -192px -414px;
+  width: 26px;
+  height: 26px;
+}
+.ico-left:active {
+  background-image: url(../img/sprite.png);
+  background-position: -223px -414px;
+  width: 26px;
+  height: 26px;
+}
+
+
+
+.ico-minus {
+  background-image: url(../img/sprite.png);
+  background-position: -202px -336px;
+  width: 25px;
+  height: 25px;
+}
+
+.ico-minus:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -142px -336px;
+  width: 25px;
+  height: 25px;
+}
+.ico-minus:active {
+  background-image: url(../img/sprite.png);
+  background-position: -232px -336px;
+  width: 25px;
+  height: 25px;
+}
+
+
+
+
+.ico-odn {
+  background-image: url(../img/sprite.png);
+  background-position: -486px -266px;
+  width: 34px;
+  height: 34px;
+}
+
+.ico-odn:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -438px -288px;
+  width: 34px;
+  height: 34px;
+}
+.ico-odn:active {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -447px;
+  width: 34px;
+  height: 34px;
+}
+
+.ico-plus {
+  background-image: url(../img/sprite.png);
+  background-position: -172px -336px;
+  width: 25px;
+  height: 25px;
+}
+.ico-plus:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -262px -336px;
+  width: 25px;
+  height: 25px;
+}
+.ico-plus:active {
+  background-image: url(../img/sprite.png);
+  background-position: -112px -336px;
+  width: 25px;
+  height: 25px;
+}
+
+
+.ico-right {
+  background-image: url(../img/sprite.png);
+  background-position: -254px -414px;
+  width: 26px;
+  height: 26px;
+}
+.ico-right:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -316px -414px;
+  width: 26px;
+  height: 26px;
+}
+
+.ico-right:active {
+  background-image: url(../img/sprite.png);
+  background-position: -285px -414px;
+  width: 26px;
+  height: 26px;
+}
+
+.ico-vk {
+  background-image: url(../img/sprite.png);
+  background-position: -486px -305px;
+  width: 34px;
+  height: 34px;
+}
+
+.ico-vk:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -39px -447px;
+  width: 34px;
+  height: 34px;
+}
+.ico-vk:active {
+  background-image: url(../img/sprite.png);
+  background-position: -486px -227px;
+  width: 34px;
+  height: 34px;
+}
+
